@@ -1,5 +1,14 @@
 import java.util.*    // required import
 
+
+
+val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+fun main() {
+    println( decorations.filter {it[0] == 'p'})
+}
+
+
+
 fun randomDay() : String {
     val week = arrayOf ("Monday", "Tuesday", "Wednesday", "Thursday",
         "Friday", "Saturday", "Sunday")
@@ -23,10 +32,12 @@ fun feedTheFish() {
     println ("Today is $day and the fish eat $food")
     println("Change water: ${shouldChangeWater(day)}")
 }
+//
+//fun main(args: Array<String>) {
+//    feedTheFish()
+//}
 
-fun main(args: Array<String>) {
-    feedTheFish()
-}
+
 fun swim(speed: String = "fast") {
     println("swimming $speed")
 }
