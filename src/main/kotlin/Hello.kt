@@ -91,3 +91,19 @@ fun isTooHot(temperature: Int) = temperature > 30
 fun isDirty(dirty: Int) = dirty > 30
 
 fun isSunday(day: String) = day == "Sunday"
+
+
+
+
+
+
+
+
+//var dirty = 16
+//var dirty =  updateDirty(dirty)  : (Int) -> Int = { dirty -> dirty / 2 }
+//print(dirty)
+//
+//
+//fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
+//    dirty = dirty/2
+//}
